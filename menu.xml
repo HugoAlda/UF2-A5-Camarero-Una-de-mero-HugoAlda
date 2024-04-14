@@ -1,0 +1,900 @@
+<menu>
+    <ENTRANTES>
+        <PLATO tipo="ensalada">
+            <NOMBRE>Ensalada de Pollo</NOMBRE>
+            <DESCRIPCION>Ensalada de pollo con lechuga, tomate, pepino, zanahoria, pollo a la plancha y aderezo.</DESCRIPCION>
+            <CALORIAS>262 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/ensalada/ensalada-pollo.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="ensalada">
+            <NOMBRE>Goma Wakame</NOMBRE>
+            <DESCRIPCION>Ensalada de algas wakame con aderezo especial.</DESCRIPCION>
+            <CALORIAS>120 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/ensalada/goma-wakame.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="ensalada">
+            <NOMBRE>Ensalada de pulpo</NOMBRE>
+            <DESCRIPCION>Ensalada de pulpo con lechuga, tomate, pepino, cebolla morada y aderezo.</DESCRIPCION>
+            <CALORIAS>180 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/ensalada/ensalada-pulpo.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="ensalada">
+            <NOMBRE>Edamame</NOMBRE>
+            <DESCRIPCION>Edamame cocido al vapor con sal marina.</DESCRIPCION>
+            <CALORIAS>120 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/ensalada/edamame.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Tortilla de Salmon Philadelfia</NOMBRE>
+            <DESCRIPCION>Tortilla de huevo rellena de salmón y queso philadelphia.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/tortilla-salmon-philadelphia.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Tortilla de salmon</NOMBRE>
+            <DESCRIPCION>Tortilla de huevo rellena de salmón.</DESCRIPCION>
+            <CALORIAS>180 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/tortilla-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Huevo Codorniz</NOMBRE>
+            <DESCRIPCION>Sushi enrollado con huevo de codorniz.</DESCRIPCION>
+            <CALORIAS>150 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-huevo-codorniz.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Ebiten</NOMBRE>
+            <DESCRIPCION>Sushi con tempura de langostinos.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-ebiten.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Salmon</NOMBRE>
+            <DESCRIPCION>Sushi de salmón fresco.</DESCRIPCION>
+            <CALORIAS>200 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Atun Flameado</NOMBRE>
+            <DESCRIPCION>Sushi de atún flameado.</DESCRIPCION>
+            <CALORIAS>180 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-atun-flameado.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Gamba</NOMBRE>
+            <DESCRIPCION>Sushi de langostino.</DESCRIPCION>
+            <CALORIAS>190 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-gamba.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sashimi atun</NOMBRE>
+            <DESCRIPCION>Sashimi de atún fresco.</DESCRIPCION>
+            <CALORIAS>150 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sashimi-atun.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Salmon Teriyaki</NOMBRE>
+            <DESCRIPCION>Sushi de salmón con salsa teriyaki.</DESCRIPCION>
+            <CALORIAS>210 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-salmon-teriyaki.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sashimi Salmon</NOMBRE>
+            <DESCRIPCION>Sashimi de salmón fresco.</DESCRIPCION>
+            <CALORIAS>160 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sashimi-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Pez Mantequilla Trufa</NOMBRE>
+            <DESCRIPCION>Sushi de pez mantequilla con trufa.</DESCRIPCION>
+            <CALORIAS>240 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-pez-mantequilla-trufa.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Atun</NOMBRE>
+            <DESCRIPCION>Sushi de atún fresco.</DESCRIPCION>
+            <CALORIAS>190 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-atun.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Anguila</NOMBRE>
+            <DESCRIPCION>Sushi de anguila.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-anguila.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Salmon Philadelfia</NOMBRE>
+            <DESCRIPCION>Sushi de salmón con queso philadelphia.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-salmon-philadelphia.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Roll Salmon con Mango</NOMBRE>
+            <DESCRIPCION>Roll de salmón con mango.</DESCRIPCION>
+            <CALORIAS>200 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/roll-salmon-mango.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Tartar Salmon con Aguacate</NOMBRE>
+            <DESCRIPCION>Tartar de salmón con aguacate.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/tartar-salmon-aguacate.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Tataki de Salmon</NOMBRE>
+            <DESCRIPCION>Tataki de salmón.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/tataki-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Salmon Flemeado Teriyaki</NOMBRE>
+            <DESCRIPCION>Sushi de salmón flameado con salsa teriyaki.</DESCRIPCION>
+            <CALORIAS>240 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-salmon-flemeado-teriyaki.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Spicy Tuna Crunch con Tartar de Aguacate</NOMBRE>
+            <DESCRIPCION>Spicy Tuna Crunch con tartar de aguacate.</DESCRIPCION>
+            <CALORIAS>210 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/spicy-tuna-crunch-tartar-aguacate.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Sushi Salmon Flameado</NOMBRE>
+            <DESCRIPCION>Sushi de salmón flameado.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/sushi-salmon-flameado.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="sushi">
+            <NOMBRE>Black Tartar</NOMBRE>
+            <DESCRIPCION>Tartar de pez mantequilla negro.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/sushi/black-tartar.jpg</IMAGEN>
+        </PLATO>        
+        <PLATO tipo="gunkan">
+            <NOMBRE>Gunkan Flameado Philadelfia</NOMBRE>
+            <DESCRIPCION>Gunkan de salmón flameado con queso philadelphia.</DESCRIPCION>
+            <CALORIAS>240 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/gunkan/gunkan-flameado-philadelphia.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="gunkan">
+            <NOMBRE>Gunkan Salmon Spicy Mayo</NOMBRE>
+            <DESCRIPCION>Gunkan de salmón con mayonesa picante.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/gunkan/gunkan-salmon-spicy-mayo.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="gunkan">
+            <NOMBRE>Gunkan Salmon Philadelfia</NOMBRE>
+            <DESCRIPCION>Gunkan de salmón con queso philadelphia.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/gunkan/gunkan-salmon-philadelphia.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="gunkan">
+            <NOMBRE>Gunkan Salmon Kataifi</NOMBRE>
+            <DESCRIPCION>Gunkan de salmón envuelto en kataifi.</DESCRIPCION>
+            <CALORIAS>240 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/gunkan/gunkan-salmon-kataifi.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="gunkan">
+            <NOMBRE>Gunkan Atun Spicy</NOMBRE>
+            <DESCRIPCION>Gunkan de atún con salsa picante.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/gunkan/gunkan-atun-spicy.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="gunkan">
+            <NOMBRE>Gunkan Salmon con Aguacate Spicy</NOMBRE>
+            <DESCRIPCION>Gunkan de salmón con aguacate y salsa picante.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/gunkan/gunkan-salmon-aguacate-spicy.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki Salmon Katafi</NOMBRE>
+            <DESCRIPCION>Temaki de salmón envuelto en kataifi.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-salmon-kataifi.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki Salmon Philadelfia</NOMBRE>
+            <DESCRIPCION>Temaki de salmón con queso philadelphia.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-salmon-philadelphia.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki Verde Angel</NOMBRE>
+            <DESCRIPCION>Temaki vegetariano con alga nori y verduras.</DESCRIPCION>
+            <CALORIAS>180 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-verde-angel.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki Ebiten</NOMBRE>
+            <DESCRIPCION>Temaki de langostinos tempura.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-ebiten.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki Rosa Angel</NOMBRE>
+            <DESCRIPCION>Temaki vegetariano con alga nori y salsa rosa.</DESCRIPCION>
+            <CALORIAS>190 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-rosa-angel.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki de Salmon con Aguacate</NOMBRE>
+            <DESCRIPCION>Temaki de salmón con aguacate.</DESCRIPCION>
+            <CALORIAS>210 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-salmon-aguacate.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki Gamba Frita</NOMBRE>
+            <DESCRIPCION>Temaki de langostinos fritos.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-gamba-frita.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="temaki">
+            <NOMBRE>Temaki de Atun con Aguacate</NOMBRE>
+            <DESCRIPCION>Temaki de atún con aguacate.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/temaki/temaki-atun-aguacate.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Pollo Empanado Roll</NOMBRE>
+            <DESCRIPCION>Roll de pollo empanado.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/pollo-empanado-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Solomillo Cheddar Roll</NOMBRE>
+            <DESCRIPCION>Roll de solomillo con queso cheddar.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/solomillo-cheddar-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Roll de Platano</NOMBRE>
+            <DESCRIPCION>Roll de plátano.</DESCRIPCION>
+            <CALORIAS>210 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/roll-platano.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Rollo Negro de Pollo</NOMBRE>
+            <DESCRIPCION>Roll de pollo negro.</DESCRIPCION>
+            <CALORIAS>240 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/rollo-negro-pollo.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Salmon Roll</NOMBRE>
+            <DESCRIPCION>Roll de salmón.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/salmon-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Super Trufa Roll</NOMBRE>
+            <DESCRIPCION>Roll con trufa.</DESCRIPCION>
+            <CALORIAS>300 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/super-trufa-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Salmon Love Uramaki</NOMBRE>
+            <DESCRIPCION>Uramaki de salmón.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/salmon-love-uramaki.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Spicy Crunch Roll</NOMBRE>
+            <DESCRIPCION>Roll crujiente y picante.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/spicy-crunch-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Rollo Negro Fuji</NOMBRE>
+            <DESCRIPCION>Roll negro estilo Fuji.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/rollo-negro-fuji.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Philadelphia Roll</NOMBRE>
+            <DESCRIPCION>Roll de salmón philadelphia.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/philadelphia-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Crazy Salmon Roll</NOMBRE>
+            <DESCRIPCION>Roll loco de salmón.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/crazy-salmon-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Tiger Roll</NOMBRE>
+            <DESCRIPCION>Roll tigre.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/tiger-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>New York Roll</NOMBRE>
+            <DESCRIPCION>Roll estilo New York.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/new-york-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Salmon Sensation Roll</NOMBRE>
+            <DESCRIPCION>Roll sensación de salmón.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/salmon-sensation-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Salmon Cuit Roll</NOMBRE>
+            <DESCRIPCION>Roll de salmón cocido.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/salmon-cuit-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Crunch Salmon Roll</NOMBRE>
+            <DESCRIPCION>Roll crujiente de salmón.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/crunch-salmon-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Roll Negro Crujiente</NOMBRE>
+            <DESCRIPCION>Roll negro crujiente.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/roll-negro-crujiente.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Roll Negro de Salmon</NOMBRE>
+            <DESCRIPCION>Roll negro de salmón.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/roll-negro-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Tuna Sensation Roll</NOMBRE>
+            <DESCRIPCION>Roll sensación de atún.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/tuna-sensation-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Crunch Tuna Philadelfia Roll</NOMBRE>
+            <DESCRIPCION>Roll crujiente de atún philadelphia.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/crunch-tuna-philadelphia-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Tuna Cuit Roll</NOMBRE>
+            <DESCRIPCION>Roll de atún cocido.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/tuna-cuit-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>California Roll</NOMBRE>
+            <DESCRIPCION>Roll estilo California.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/california-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Sweet Gamba Roll</NOMBRE>
+            <DESCRIPCION>Roll dulce de langostinos.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/sweet-gamba-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Philadelfia Gamba Roll</NOMBRE>
+            <DESCRIPCION>Roll de langostinos estilo philadelphia.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/philadelphia-gamba-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Spicy Crab Roll</NOMBRE>
+            <DESCRIPCION>Roll de cangrejo picante.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/spicy-crab-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Mango Roll</NOMBRE>
+            <DESCRIPCION>Roll de mango.</DESCRIPCION>
+            <CALORIAS>220 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/mango-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Green Dragon Roll</NOMBRE>
+            <DESCRIPCION>Roll dragón verde.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/green-dragon-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Red Dragon Roll</NOMBRE>
+            <DESCRIPCION>Roll dragón rojo.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/red-dragon-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Ebiten</NOMBRE>
+            <DESCRIPCION>Roll de langostinos tempura.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/ebiten.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Kiss Me Roll</NOMBRE>
+            <DESCRIPCION>Roll de beso.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/kiss-me-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Doble D Roll</NOMBRE>
+            <DESCRIPCION>Roll doble D.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/doble-d-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Ebiten Trufa Roll</NOMBRE>
+            <DESCRIPCION>Roll de langostinos tempura con trufa.</DESCRIPCION>
+            <CALORIAS>300 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/ebiten-trufa-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Ebiten Negro</NOMBRE>
+            <DESCRIPCION>Roll de langostinos tempura negro.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/ebiten-negro.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Crispy Roll</NOMBRE>
+            <DESCRIPCION>Roll crujiente.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/crispy-roll.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Crispy Roll Mango</NOMBRE>
+            <DESCRIPCION>Roll crujiente de mango.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/crispy-roll-mango.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Crispy Roll Fresa</NOMBRE>
+            <DESCRIPCION>Roll crujiente de fresa.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/crispy-roll-fresa.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Maki Salmon</NOMBRE>
+            <DESCRIPCION>Maki de salmón.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/maki-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Maki Atun</NOMBRE>
+            <DESCRIPCION>Maki de atún.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/maki-atun.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Maki Aguacate</NOMBRE>
+            <DESCRIPCION>Maki de aguacate.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/maki-aguacate.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="rollo">
+            <NOMBRE>Maki de Salmon con Aguacate</NOMBRE>
+            <DESCRIPCION>Maki de salmón con aguacate.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/rollo/maki-salmon-aguacate.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Tori Karaage</NOMBRE>
+            <DESCRIPCION>Pollo frito estilo japonés.</DESCRIPCION>
+            <CALORIAS>320 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/tori-karaage.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Samosa de Curry</NOMBRE>
+            <DESCRIPCION>Samosa rellena de curry.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/samosa-curry.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Ebi Fried</NOMBRE>
+            <DESCRIPCION>Gambas fritas.</DESCRIPCION>
+            <CALORIAS>340 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/ebi-fried.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Bao de Pollo Crujiente</NOMBRE>
+            <DESCRIPCION>Pan al vapor relleno de pollo crujiente.</DESCRIPCION>
+            <CALORIAS>300 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/bao-pollo-crujiente.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Alitas a la Japonesa</NOMBRE>
+            <DESCRIPCION>Alitas de pollo estilo japonés.</DESCRIPCION>
+            <CALORIAS>310 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/alitas-japonesas.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Takoyaki</NOMBRE>
+            <DESCRIPCION>Bolitas de pulpo.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/takoyaki.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Rollito</NOMBRE>
+            <DESCRIPCION>Rollito frito.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/rollito.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Tempura de berenjena con miel</NOMBRE>
+            <DESCRIPCION>Berenjena tempura con salsa de miel.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/tempura-berenjena-miel.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Tempura de Verduras</NOMBRE>
+            <DESCRIPCION>Verduras en tempura.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/tempura-verduras.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Brocheta de Ternera Cheddar</NOMBRE>
+            <DESCRIPCION>Brocheta de ternera con queso cheddar.</DESCRIPCION>
+            <CALORIAS>320 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/brocheta-ternera-cheddar.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Pollo Katsu</NOMBRE>
+            <DESCRIPCION>Pollo katsu.</DESCRIPCION>
+            <CALORIAS>330 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/pollo-katsu.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="freidora">
+            <NOMBRE>Pato Pekin</NOMBRE>
+            <DESCRIPCION>Pato pekinés.</DESCRIPCION>
+            <CALORIAS>350 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/freidora/pato-pekin.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Taco Pollo</NOMBRE>
+            <DESCRIPCION>Taco de pollo a la plancha.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/taco-pollo.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Mini Bao</NOMBRE>
+            <DESCRIPCION>Mini bao.</DESCRIPCION>
+            <CALORIAS>200 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/mini-bao.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Bao de Gamba</NOMBRE>
+            <DESCRIPCION>Bao relleno de gamba.</DESCRIPCION>
+            <CALORIAS>230 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/bao-gamba-frita.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Dim Sum</NOMBRE>
+            <DESCRIPCION>Dim sum.</DESCRIPCION>
+            <CALORIAS>180 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/dim-sum.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Brocheta de Pez Mantequilla</NOMBRE>
+            <DESCRIPCION>Brocheta de pez mantequilla.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/brocheta-pez-mantequilla.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Brocheta de Ternera</NOMBRE>
+            <DESCRIPCION>Brocheta de ternera.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/brocheta-ternera.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Yakitori</NOMBRE>
+            <DESCRIPCION>Yakitori.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/yakitori.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Jakao</NOMBRE>
+            <DESCRIPCION>Jakao.</DESCRIPCION>
+            <CALORIAS>240 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/jakao.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Gyozas Pollo</NOMBRE>
+            <DESCRIPCION>Gyozas de pollo.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/gyozas-pollo.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Brochetas de Salmon</NOMBRE>
+            <DESCRIPCION>Brochetas de salmón.</DESCRIPCION>
+            <CALORIAS>290 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/brocheta-salmon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Gyozas Gamba</NOMBRE>
+            <DESCRIPCION>Gyozas de gamba.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/gyozas-gamba.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Taco de Ternera</NOMBRE>
+            <DESCRIPCION>Taco de ternera a la plancha.</DESCRIPCION>
+            <CALORIAS>260 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/taco-ternera.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="plancha">
+            <NOMBRE>Taco Langostino</NOMBRE>
+            <DESCRIPCION>Taco de langostino a la plancha.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/plancha/taco-langostinos-frito.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Arroz Frito con Setas</NOMBRE>
+            <DESCRIPCION>Arroz frito con setas.</DESCRIPCION>
+            <CALORIAS>300 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/arroz-frito-setas.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Yakimeshi</NOMBRE>
+            <DESCRIPCION>Yakimeshi.</DESCRIPCION>
+            <CALORIAS>320 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/yakimeshi.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Arroz Blanco</NOMBRE>
+            <DESCRIPCION>Arroz blanco.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/arroz-blanco.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Yakisoba con Gamba</NOMBRE>
+            <DESCRIPCION>Yakisoba con gamba.</DESCRIPCION>
+            <CALORIAS>350 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/yakisoba-gamba.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Yakiudon</NOMBRE>
+            <DESCRIPCION>Yakiudon.</DESCRIPCION>
+            <CALORIAS>330 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/yakiudon.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Pollo con Almendra</NOMBRE>
+            <DESCRIPCION>Pollo con almendra.</DESCRIPCION>
+            <CALORIAS>380 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/pollo-almendra.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Loncha de Buey con Salsa de Ostra</NOMBRE>
+            <DESCRIPCION>Loncha de buey con salsa de ostra.</DESCRIPCION>
+            <CALORIAS>400 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/loncha-buey-salsa-ostra.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Pollo Kong Bao</NOMBRE>
+            <DESCRIPCION>Pollo kong bao.</DESCRIPCION>
+            <CALORIAS>360 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/pollo-kong-bao.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Arroz Frito con Curry</NOMBRE>
+            <DESCRIPCION>Arroz frito con curry.</DESCRIPCION>
+            <CALORIAS>340 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/arroz-frito-curry.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Gambas KongBao</NOMBRE>
+            <DESCRIPCION>Gambas kong bao.</DESCRIPCION>
+            <CALORIAS>380 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/gamba-kongbao.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Sopa Miso</NOMBRE>
+            <DESCRIPCION>Sopa miso.</DESCRIPCION>
+            <CALORIAS>200 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/sopa-miso.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Loncha de Buey con Salsa Curry</NOMBRE>
+            <DESCRIPCION>Loncha de buey con salsa curry.</DESCRIPCION>
+            <CALORIAS>410 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/loncha-buey-salsa-curry.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="wok">
+            <NOMBRE>Miso Mariscos</NOMBRE>
+            <DESCRIPCION>Miso mariscos.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>3.95€</PRECIO>
+            <IMAGEN>img/wok/miso-mariscos.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="postres">
+            <NOMBRE>Huevo de Chocolate Blanco</NOMBRE>
+            <DESCRIPCION>Huevo de chocolate blanco.</DESCRIPCION>
+            <CALORIAS>250 kcal</CALORIAS>
+            <PRECIO>5.50€</PRECIO>
+            <IMAGEN>img/postres/huevo-chocolate-blanco.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="postres">
+            <NOMBRE>Coulant de Chocolate Classic sin Gluten</NOMBRE>
+            <DESCRIPCION>Coulant de chocolate clásico sin gluten.</DESCRIPCION>
+            <CALORIAS>300 kcal</CALORIAS>
+            <PRECIO>3.50€</PRECIO>
+            <IMAGEN>img/postres/coulant-chocolate-classic-sin-gluten.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="postres">
+            <NOMBRE>Shoufflé de Mango Coco</NOMBRE>
+            <DESCRIPCION>Shoufflé de mango y coco.</DESCRIPCION>
+            <CALORIAS>280 kcal</CALORIAS>
+            <PRECIO>4€</PRECIO>
+            <IMAGEN>img/postres/shoufflé-mango-coco.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="postres">
+            <NOMBRE>Shoufflé de Limón Yuzu</NOMBRE>
+            <DESCRIPCION>Shoufflé de limón yuzu.</DESCRIPCION>
+            <CALORIAS>270 kcal</CALORIAS>
+            <PRECIO>4€</PRECIO>
+            <IMAGEN>img/postres/shoufflé-limon-yuzu.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="postres">
+            <NOMBRE>Cheesecake Spéculoos</NOMBRE>
+            <DESCRIPCION>Cheesecake con galletas spéculoos.</DESCRIPCION>
+            <CALORIAS>320 kcal</CALORIAS>
+            <PRECIO>4€</PRECIO>
+            <IMAGEN>img/postres/cheesecake-spéculoos.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="bebidas">
+            <NOMBRE>Agua 50cl</NOMBRE>
+            <DESCRIPCION>Agua mineral natural 50cl.</DESCRIPCION>
+            <CALORIAS>0 kcal</CALORIAS>
+            <PRECIO>1.50€</PRECIO>
+            <IMAGEN>img/bebidas/agua.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="bebidas">
+            <NOMBRE>Coca-cola</NOMBRE>
+            <DESCRIPCION>Bebida refrescante Coca-Cola.</DESCRIPCION>
+            <CALORIAS>140 kcal</CALORIAS>
+            <PRECIO>1.50€</PRECIO>
+            <IMAGEN>img/bebidas/coca-cola.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="bebidas">
+            <NOMBRE>Coca-cola Zero</NOMBRE>
+            <DESCRIPCION>Bebida refrescante Coca-Cola Zero.</DESCRIPCION>
+            <CALORIAS>0 kcal</CALORIAS>
+            <PRECIO>1.50€</PRECIO>
+            <IMAGEN>img/bebidas/coca-cola-zero.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="bebidas">
+            <NOMBRE>Fanta Naranja</NOMBRE>
+            <DESCRIPCION>Bebida refrescante Fanta Naranja.</DESCRIPCION>
+            <CALORIAS>150 kcal</CALORIAS>
+            <PRECIO>1.50€</PRECIO>
+            <IMAGEN>img/bebidas/fanta-naranja.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="bebidas">
+            <NOMBRE>Nestea Limón</NOMBRE>
+            <DESCRIPCION>Bebida refrescante Nestea Limón.</DESCRIPCION>
+            <CALORIAS>100 kcal</CALORIAS>
+            <PRECIO>1.50€</PRECIO>
+            <IMAGEN>img/bebidas/nestea.jpg</IMAGEN>
+        </PLATO>
+        <PLATO tipo="bebidas">
+            <NOMBRE>Estrella Damm</NOMBRE>
+            <DESCRIPCION>Cerveza Estrella Damm.</DESCRIPCION>
+            <CALORIAS>150 kcal</CALORIAS>
+            <PRECIO>1.50€</PRECIO>
+            <IMAGEN>img/bebidas/estrella-damm.jpg</IMAGEN>
+        </PLATO>
+    </ENTRANTES>
+</menu>

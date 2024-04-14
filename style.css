@@ -1,0 +1,60 @@
+/* Estilos para cada plato */
+.plato {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.plato h2 {
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+
+.plato p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.plato .precio {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+.img-platos{
+    max-width: 250px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+}
+
+/* Estilos Tabla */
+
+.tabla {
+    margin: 0 auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.tabla td {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: left;
+    font-size: 16px;
+}
+
+.tabla i {
+    font-size: 20px;
+    margin-right: 5px;
+}
