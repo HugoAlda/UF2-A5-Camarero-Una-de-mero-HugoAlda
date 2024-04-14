@@ -1,10 +1,26 @@
+body {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 99.5%;
+}
+
+.navbar {
+    width: 100.5%;
+    position: fixed;
+    z-index: 9999; /* Asegurarse de que esté encima de todo */
+}
+
 /* Estilos para cada plato */
+
 .plato {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgba(57, 58, 53, 0.782);
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .plato h2 {
@@ -15,7 +31,6 @@
 .plato p {
     margin: 5px 0;
     font-size: 14px;
-    color: #666;
 }
 
 .plato .precio {
@@ -23,19 +38,35 @@
     color: #ff5733;
 }
 
-.img-platos{
+.img-platos {
     max-width: 250px;
     width: 100%;
     max-height: 200px;
-    height: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para organizar los platos en columnas de tres */
+
+.platos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+
+.plato {
+    flex-basis: calc(33.33% - 20px);
 }
 
 /* Estilos Tabla */
 
 .tabla {
     margin: 0 auto;
+    padding-top: 50px;
     width: 50%;
     border-collapse: collapse;
+    display: flex;
 }
 
 .icon {
@@ -44,6 +75,15 @@
     border-collapse: collapse;
     border: 2px solid;
     border-radius: 20px;
+    flex-wrap: wrap;
+    background-color: rgba(57, 58, 53, 0.782);
+}
+
+.imagen {
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    margin-top: 41px;
 }
 
 .tabla td {
@@ -57,4 +97,44 @@
 .tabla i {
     font-size: 20px;
     margin-right: 5px;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+/* Media Query (800px) */
+
+@media (max-width: 800px) {
+    .tabla {
+        width: 100%; /* Ancho completo en dispositivos más pequeños */
+        overflow-x: auto; /* Agregar desplazamiento horizontal si es necesario */
+    }
+
+    .icon {
+        width: 100%; /* Ancho completo en dispositivos más pequeños */
+        border-radius: 0; /* Eliminar el borde redondeado en dispositivos más pequeños */
+    }
+
+    .imagen {
+        width: 100%; /* Ancho completo en dispositivos más pequeños */
+        margin-top: 20px; /* Ajustar el margen superior */
+    }
+
+    .tabla td {
+        padding: 10px; /* Reducir el espaciado interno de las celdas */
+    }
+
+    /* Asegurar que los elementos se muestren en una columna */
+    .navbar-nav,
+    .platos-container,
+    .tabla,
+    .imagen {
+        width: 100%;
+    }
+
+    .plato {
+        flex-basis: 100%; /* Establecer el ancho al 100% para que ocupe toda la columna */
+        margin-bottom: 20px; /* Ajustar el margen inferior */
+    }
 }

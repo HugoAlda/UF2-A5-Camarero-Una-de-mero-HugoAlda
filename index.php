@@ -6,7 +6,9 @@
     
     <link rel="stylesheet" href="style.css">
 
-    <title>YAKHO HUGO</title>
+    <link rel="shortcut icon" href="img/icono.ico"/>
+
+    <title>YAKO</title>
 
 </head>
 <?php
@@ -20,7 +22,7 @@
                 <?php
                     // Agregar un enlace para mostrar todos los platos
                     $claseActiva = isset($_GET['tipo']) && $_GET['tipo'] == '' ? 'active' : ''; // Verificar si está seleccionado el filtro "Yakho Hugo"
-                    echo '<a class="navbar-brand" . $claseActiva . " href="?tipo=">Yakho</a>';
+                    echo '<a class="navbar-brand" . $claseActiva . " href="?tipo=">Yako</a>';
                 ?>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +58,7 @@
     </nav>
     <br>
     <div class="tabla">
+        <img class="imagen" src="img/logo.png">
         <table class="icon">
             <tbody>
                 <tr>
@@ -84,16 +87,28 @@
     
     <hr>
 
-    <?php
+    <div class="platos-container">
+        <?php
+            if(isset($_GET['tipo']) && $_GET['tipo'] !== ''){
+                // Mostrar solo los platos del tipo seleccionado
+                foreach ($menu->ENTRANTES->PLATO as $plato){
+                    // Obtener el tipo de plato de cada plato
+                    $tipoPlato = (string)$plato['tipo'];
 
-        if(isset($_GET['tipo']) && $_GET['tipo'] !== ''){
-            // Mostrar solo los platos del tipo seleccionado
-            foreach ($menu->ENTRANTES->PLATO as $plato){
-                // Obtener el tipo de plato de cada plato
-                $tipoPlato = (string)$plato['tipo'];
-                
-                // Verificar si el tipo del plato coincide con el tipo seleccionado
-                if ($_GET['tipo'] == $tipoPlato){
+                    // Verificar si el tipo del plato coincide con el tipo seleccionado
+                    if ($_GET['tipo'] == $tipoPlato){
+                        echo "<div class='plato'>";
+                        echo "<h2>$plato->NOMBRE</h2>";
+                        echo "<p>Descripcion: $plato->DESCRIPCION</p>";
+                        echo "<p>$plato->CALORIAS</p>";
+                        echo "<p class='precio'>$plato->PRECIO</p>";
+                        echo "<img class='img-platos' src='$plato->IMAGEN' alt='$plato->NOMBRE'>";
+                        echo "</div>";
+                    } 
+                }
+            }else{
+                // Mostrar todos los platos sin filtrar
+                foreach ($menu->ENTRANTES->PLATO as $plato){
                     echo "<div class='plato'>";
                     echo "<h2>$plato->NOMBRE</h2>";
                     echo "<p>Descripcion: $plato->DESCRIPCION</p>";
@@ -101,21 +116,9 @@
                     echo "<p class='precio'>$plato->PRECIO</p>";
                     echo "<img class='img-platos' src='$plato->IMAGEN' alt='$plato->NOMBRE'>";
                     echo "</div>";
-                } 
-            }
-        }else{
-            // Mostrar todos los platos sin filtrar
-            foreach ($menu->ENTRANTES->PLATO as $plato){
-                echo "<div class='plato'>";
-                echo "<h2>$plato->NOMBRE</h2>";
-                echo "<p>Descripcion: $plato->DESCRIPCION</p>";
-                echo "<p>$plato->CALORIAS</p>";
-                echo "<p class='precio'>$plato->PRECIO</p>";
-                echo "<img class='img-platos' src='$plato->IMAGEN' alt='$plato->NOMBRE'>";
-                echo "</div>";
-            }
-        }        
-        
-    ?>        
+                }
+            }        
+        ?>
+    </div>
 
 </body>
