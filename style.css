@@ -105,32 +105,24 @@ hr {
 
 /* Media Query (800px) */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px){
     .tabla {
         width: 100%; /* Ancho completo en dispositivos más pequeños */
-        overflow-x: auto; /* Agregar desplazamiento horizontal si es necesario */
+        flex-direction: column;
     }
 
     .icon {
         width: 100%; /* Ancho completo en dispositivos más pequeños */
-        border-radius: 0; /* Eliminar el borde redondeado en dispositivos más pequeños */
     }
 
     .imagen {
         width: 100%; /* Ancho completo en dispositivos más pequeños */
-        margin-top: 20px; /* Ajustar el margen superior */
-    }
-
-    .tabla td {
-        padding: 10px; /* Reducir el espaciado interno de las celdas */
     }
 
     /* Asegurar que los elementos se muestren en una columna */
-    .navbar-nav,
-    .platos-container,
-    .tabla,
-    .imagen {
+    .navbar-nav, .platos-container {
         width: 100%;
+        text-align: center;
     }
 
     .plato {
